@@ -1,3 +1,5 @@
+---
+
 # **Task Tracker CLI** 📝
 
 A simple **command-line tool** built with **Node.js** to manage your tasks efficiently.  
@@ -11,7 +13,8 @@ Easily **add, update, delete, and track tasks** using a JSON-based storage syste
 ✅ Mark tasks as **to-do, in-progress, or done**  
 ✅ List all tasks or filter by status  
 ✅ Persistent storage using JSON  
-✅ No external dependencies—only built-in Node.js modules
+✅ No external dependencies—only built-in Node.js modules  
+✅ **Automated testing** using Node.js built-in test framework (`node:test`)
 
 ---
 
@@ -117,6 +120,41 @@ Each task has the following structure:
 
 ---
 
+## **Running Tests 🧪**
+
+This project includes automated tests using **Node.js built-in `node:test` framework**.
+
+### **Run All Tests**
+
+To verify all functionalities, execute:
+
+```sh
+npm test
+```
+
+📌 **Expected Output Example:**
+
+```sh
+✔ should add a new task
+✔ should list all tasks
+✔ should update a task description
+✔ should mark a task as in-progress
+✔ should mark a task as done
+✔ should delete a task
+✔ should return null if updating a non-existent task
+✔ should return false if deleting a non-existent task
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms
+```
+
+---
+
 ## **Error Handling** ⚠️
 
 - If you try to update or delete a non-existing task, you’ll see a **"Task not found."** message.
@@ -151,3 +189,5 @@ This project is licensed under the **MIT License**.
 
 👨‍💻 Developed by **Mohammad Zeeshan Khan**  
 📧 Contact: zeeshan2423@gmail.com
+
+---
