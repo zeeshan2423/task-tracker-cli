@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, './task.json');
+const filePath = path.join(__dirname, './tasks.json');
 
 function readTasks(){
     if(!fs.existsSync(filePath)) fs.writeFileSync(filePath,"[]");
