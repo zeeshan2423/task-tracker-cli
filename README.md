@@ -3,6 +3,8 @@
 A simple **command-line tool** built with **Node.js** to manage your tasks efficiently.  
 Easily **add, update, delete, and track tasks** using a JSON-based storage system.
 
+🔗 **Project URL:** [Task Tracker Project on Roadmap.sh](https://roadmap.sh/projects/task-tracker)
+
 ## **Features** 🚀
 
 ✅ Add, update, and delete tasks  
@@ -18,7 +20,7 @@ Easily **add, update, delete, and track tasks** using a JSON-based storage syste
 ### **1️⃣ Clone the repository**
 
 ```sh
-git clone https://github.com/your-username/task-tracker-cli.git
+git clone https://github.com/zeeshan2423/task-tracker-cli.git
 cd task-tracker-cli
 ```
 
