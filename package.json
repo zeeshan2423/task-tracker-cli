@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/task-manager.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "bin": {
-  "task-cli": "index.js"
-}
+    "task-cli": "index.js"
+  }
 }
