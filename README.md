@@ -45,7 +45,7 @@ Now you can use `task-cli` as a command-line tool! 🎉
 ### **Add a Task**
 
 ```sh
-node index.js add "Buy groceries"
+task-cli add "Buy groceries"
 ```
 
 📌 **Output:** `Task added successfully (ID: 1)`
@@ -55,15 +55,15 @@ node index.js add "Buy groceries"
 ### **List All Tasks**
 
 ```sh
-node index.js list
+task-cli list
 ```
 
 ### **List Tasks by Status**
 
 ```sh
-node index.js list done
-node index.js list todo
-node index.js list in-progress
+task-cli list done
+task-cli list todo
+task-cli list in-progress
 ```
 
 ---
@@ -71,7 +71,7 @@ node index.js list in-progress
 ### **Update a Task**
 
 ```sh
-node index.js update 1 "Buy groceries and cook dinner"
+task-cli update 1 "Buy groceries and cook dinner"
 ```
 
 ---
@@ -79,13 +79,13 @@ node index.js update 1 "Buy groceries and cook dinner"
 ### **Mark a Task as In Progress**
 
 ```sh
-node index.js mark-in-progress 1
+task-cli mark-in-progress 1
 ```
 
 ### **Mark a Task as Done**
 
 ```sh
-node index.js mark-done 1
+task-cli mark-done 1
 ```
 
 ---
@@ -93,7 +93,7 @@ node index.js mark-done 1
 ### **Delete a Task**
 
 ```sh
-node index.js delete 1
+task-cli delete 1
 ```
 
 📌 **Output:** `Task deleted successfully.`
